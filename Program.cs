@@ -42,6 +42,9 @@ namespace Employee_payroll_Management
                         // UC 5
                         Console.WriteLine("Calculating Wages for a month");
                         Console.WriteLine($"Wage Per Month for Part Time = {PartTimeWagePerMonth}");
+                        // UC 6
+                        Console.WriteLine("Calculating Wages for a Year");
+                        Console.WriteLine($"Wage Per Yearly for Part Time = {PartTimeWagePerMonth * 12}");
                         break;
                     }
                 ;;
@@ -52,6 +55,9 @@ namespace Employee_payroll_Management
                         // UC 5
                         Console.WriteLine("Calculating Wages for a month");
                         Console.WriteLine($"Wage Per Month for Part Time = {FullTimeWagePerMonth}");
+                        // UC 6
+                        Console.WriteLine("Calculating Wages for a Year");
+                        Console.WriteLine($"Wage Per Yearly for Full Time = {FullTimeWagePerMonth * 12}");
                         break;
                     }
             }
