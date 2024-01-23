@@ -10,6 +10,20 @@ namespace Employee_payroll_Management
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to Employee Wage Computation Program on Master Branch");
+            Random random_obj = new Random();
+            int EMP = random_obj.Next(0, 2);
+            // UC 1             
+            if (EMP == 1)
+            {
+                Console.WriteLine("Present");
+            }
+
+            else
+            {
+                Console.WriteLine("Absent");
+            }
+
         }
     }
 }
