@@ -28,10 +28,25 @@ namespace Employee_payroll_Management
             {
                 Console.WriteLine("Absent");
             }
-            // UC2
-            Console.WriteLine($"Wage per day full time: {Full_day_wage}");
-            // UC3 
-            Console.WriteLine($"Wage per day part time: {part_time_wage}");
+            Console.WriteLine("Are you a Part Time or a Full Time");
+            string PF = Console.ReadLine();
+            // UC 4
+            switch (PF)
+            {
+                // UC 3
+                case "Part Time":
+                    {
+                        Console.WriteLine($"Wage per day part time: {part_time_wage}");
+                        break;
+                    }
+                ;;
+                // UC 2
+                case "Full Time":
+                    {
+                        Console.WriteLine($"Wage per day full time: {Full_day_wage}");
+                        break;
+                    }
+            }
         }
     }
 }
