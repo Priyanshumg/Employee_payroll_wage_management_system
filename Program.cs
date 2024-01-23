@@ -17,6 +17,8 @@ namespace Employee_payroll_Management
             int partDayHour = 4;
             int Full_day_wage = WagePerHour * FullDayHour;
             int part_time_wage = WagePerHour * partDayHour;
+            int PartTimeWagePerMonth = part_time_wage * 20;
+            int FullTimeWagePerMonth = Full_day_wage * 20;
             int EMP = random_obj.Next(0, 2);            
             // UC 1             
             if (EMP == 1)
@@ -37,6 +39,9 @@ namespace Employee_payroll_Management
                 case "Part Time":
                     {
                         Console.WriteLine($"Wage per day part time: {part_time_wage}");
+                        // UC 5
+                        Console.WriteLine("Calculating Wages for a month");
+                        Console.WriteLine($"Wage Per Month for Part Time = {PartTimeWagePerMonth}");
                         break;
                     }
                 ;;
@@ -44,6 +49,9 @@ namespace Employee_payroll_Management
                 case "Full Time":
                     {
                         Console.WriteLine($"Wage per day full time: {Full_day_wage}");
+                        // UC 5
+                        Console.WriteLine("Calculating Wages for a month");
+                        Console.WriteLine($"Wage Per Month for Part Time = {FullTimeWagePerMonth}");
                         break;
                     }
             }
