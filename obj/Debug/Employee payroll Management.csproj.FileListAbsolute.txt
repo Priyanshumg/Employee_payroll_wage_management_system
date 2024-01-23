@@ -1,0 +1,7 @@
+C:\Users\Dell\Desktop\locobuzz .net training\github\Employee payroll Management\bin\Debug\Employee payroll Management.exe.config
+C:\Users\Dell\Desktop\locobuzz .net training\github\Employee payroll Management\bin\Debug\Employee payroll Management.exe
+C:\Users\Dell\Desktop\locobuzz .net training\github\Employee payroll Management\bin\Debug\Employee payroll Management.pdb
+C:\Users\Dell\Desktop\locobuzz .net training\github\Employee payroll Management\obj\Debug\Employee payroll Management.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\locobuzz .net training\github\Employee payroll Management\obj\Debug\Employee payroll Management.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\locobuzz .net training\github\Employee payroll Management\obj\Debug\Employee payroll Management.exe
+C:\Users\Dell\Desktop\locobuzz .net training\github\Employee payroll Management\obj\Debug\Employee payroll Management.pdb
